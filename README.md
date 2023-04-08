@@ -33,3 +33,18 @@
  #### Cada parte do JWT é separada por '.'. Podemos ver mais informações em jwt.io. Precisa de um segredo para ser gerado
 
  - token: precisaremos instalar uma dependencia (npm jsonwebtoken@8.5.1 -- save-exact). Formas de usar JWT token: https://cursos.alura.com.br/course/nodejs-criptografia-tokens-jwt/task/107378
+
+ #### Algoritmos criptogtáficos e ataques:
+
+- simulacao:
+ Força Bruta: O ataque consiste em tentar exaustivamente as combinações para encontrar uma senha.
+
+ Dicionario: O ataque consiste em conhecer uma das credenciais do usuario, pegar dentro de uma lsita de senhas conhecidas, tentar acessar o usuario atraveś delas.
+
+ Rainbow Table: O ataque consiste em uma lista de senhas conhecidas, criar as hashes e comparar com a hash que queremos acessar.
+
+ recursos de segurança:
+ https://cursos.alura.com.br/course/nodejs-criptografia-tokens-jwt/task/107383
+
+ Informações extras:
+ https://cursos.alura.com.br/course/nodejs-criptografia-tokens-jwt/task/107388
